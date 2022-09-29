@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo"><img class="logoimg" src="/images/odin-lined.png"></div>
+        <div class="logo">
+            <p class="logotxt"><img class="logoimg" src="/images/odin-lined.png">Odin</p>
+        </div>
     </div>
     <div class="top divs">
         <div class="top-text">
@@ -19,22 +21,30 @@
         <p>You know you want to.</p>
         </div>
     </div>
-    <div style="background-color: red;" class="mid divs">
+    <div class="mid divs">
     <form>
-        <label for="first">First Name</label>
-        <input id="first" type="text">
-        <label for="last">Last Name</label>
-        <input id="last" type="text">
-        <label for="email">Email</label>
-        <input id="email" type="email">
-        <label for="phone">Phone Number</label>
-        <input id="phone" type="tel">
-        <label for="pass">Password</label>
-        <input id="pass" type="password">
-        <label for="passconfirm">Confirm Password</label>
-        <input id="passconfirm" type="password">
+        
+        <Div class="formcol1">
+            <label for="first">FIRST NAME</label>
+            <input id="first" type="text">
+            <label for="email">EMAIL</label>
+            <input id="email" type="email">
+            <label for="pass">PASSWORD</label>
+            <input id="pass" type="password">
+        </Div>
+        <Div class="formcol2">
+            <label for="last">LAST NAME</label>
+            <input id="last" type="text">
+            <label for="phone">PHONE NUMBER</label>
+            <input id="phone" type="tel">
+            <label for="passconfirm">CONFIRM PASSWORD</label>
+            <input id="passconfirm" type="password">
+        </Div>
     </form>
     </div>
-    <div style="background-color: blue;" class="bottom divs"></div>
+    <div class="bottom divs">
+        <button class="create">CREATE ACCOUNT</button>
+        <p class="createText">Already have an account?<a href="someurl.com"> Log In</a></p>
+    </div>
 </body>
 </html>
