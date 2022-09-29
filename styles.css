@@ -1,0 +1,50 @@
+html {
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar {
+    height: 100vh;
+    width: 500px;
+    background-image: url("/images/photo-1585202900225-6d3ac20a6962.avif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: grey;
+    font-size: 56px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.divs {
+margin-left: 490px;
+height: 31.9vh;
+}
+
+.top {
+    background-color: beige;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-top: 30vh;
+    
+}
+
+.logoimg {
+    height: 120px;
+    width: 100px;
+}
+
+.top-text {
+    
+}
